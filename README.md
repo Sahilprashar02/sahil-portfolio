@@ -30,7 +30,6 @@ To run this project locally on your machine:
    npm run dev
    ```
 
-> **Important Note regarding GSAP**: This project uses `gsap-trial` plugins (like ScrollSmoother) for advanced scrolling effects. These trial plugins work flawlessly on localhost, but GreenSock adds a redirect/warning if deployed to production without a premium Club GreenSock membership. To seamlessly deploy on standard domains without warnings, you will need to replace `gsap-trial` with the standard `gsap` package or use an alternate scrolling solution.
 
 ## 📄 License
 
