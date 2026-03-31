@@ -1,16 +1,37 @@
-# My Portfolio Wesbite - Overview 🚀
+# Sahil Prashar - Full Stack Developer and Engineer Portfolio 🚀
 
-This repository contains the open source version of my porfolio website.
-Do check it out!
+Welcome to the source code for my personal portfolio website! This project showcases my professional experience, skills, and personal projects such as TeamBaithak.
 
-## Instructions 🛠️
+## 🔗 Live Site
+*(Add your live deployed URL here once available, such as your Vercel URL!)*
 
-I have modified the gsap club plugins with the trial plugins, but with the trial plugin you cannot host it🔴. So for Club plugins, Check out here: https://gsap.com/docs/v3/Installation/
+## 🛠️ Built With
+- **Frontend Framework**: React with TypeScript
+- **Tooling**: Vite
+- **Animations**: GSAP & ScrollSmoother
+- **3D Graphics**: ThreeJS & React Three Fiber
 
-**Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, Css, JavaScript
+## 📦 Features
+- Highly interactive and responsive design.
+- Animated 3D loading state using ThreeJS.
+- Complex scroll-driven animations using GSAP.
+- Centralized component architecture mapping my real-world experience.
 
-![Portfolio-Preview](public/images/preview.png)
+## 👨‍💻 Setup for Local Development
 
-## License
+To run this project locally on your machine:
 
-This project is open source and available under the [MIT License](LICENSE).
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the local development server:
+   ```bash
+   npm run dev
+   ```
+
+> **Important Note regarding GSAP**: This project uses `gsap-trial` plugins (like ScrollSmoother) for advanced scrolling effects. These trial plugins work flawlessly on localhost, but GreenSock adds a redirect/warning if deployed to production without a premium Club GreenSock membership. To seamlessly deploy on standard domains without warnings, you will need to replace `gsap-trial` with the standard `gsap` package or use an alternate scrolling solution.
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
