@@ -1,4 +1,4 @@
-# Sahil Prashar - Full Stack Developer and Engineer Portfolio 🚀
+# Sahil Prashar - Full-Stack Developer Portfolio 🚀
 
 Welcome to the source code for my personal portfolio website! This project showcases my professional experience, skills, and personal projects such as TeamBaithak.
 
