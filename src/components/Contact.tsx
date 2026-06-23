@@ -39,6 +39,14 @@ const Contact = () => {
             </a>
             <h4 style={{ marginTop: "16px" }}>Projects</h4>
             <a
+              href="https://live-location-tracker-jade.vercel.app/"
+              target="_blank"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              Live Location Tracker <MdArrowOutward />
+            </a>
+            <a
               href="https://teambaithak.com"
               target="_blank"
               data-cursor="disable"

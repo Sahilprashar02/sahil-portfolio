@@ -3,8 +3,23 @@ import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward, MdOpenInNew } from "react-icons/md";
 import DashboardImg from "../assets/Dashboard.png";
+import LocationTrackerImg from "../assets/LocationTracker.png";
 
 const projects = [
+  {
+    title: "Live Location Tracker",
+    category: "Real-Time Mapping & Kafka Event Streaming",
+    tools: "HTML5, CSS (Glassmorphism), JavaScript (ESM), Leaflet.js, Node.js, Express, Socket.IO, Apache Kafka, MongoDB, OSRM, Nominatim, Open-Meteo API",
+    bullets: [
+      "Built a premium, real-time location sharing platform featuring a dark glassmorphic interface and high-accuracy continuous GPS tracking.",
+      "Implemented low-latency event synchronization using Socket.IO and Apache Kafka to broadcast coordinate updates across devices in real-time.",
+      "Designed a scalable, decoupled backend architecture that routes live updates through Kafka topic partitions while batching and bulk-writing updates to MongoDB.",
+      "Integrated Leaflet.js, OSRM, and Nominatim APIs to support turn-by-turn routing with dynamic auto-re-routing (GPS tracking), localized viewbox bias, and custom suffix fallback parsers.",
+      "Developed community sharing features including live location weather (Open-Meteo API), nearby POI quick filters (Food, Fuel, Hospitals), and shareable QR code links.",
+    ],
+    link: "https://live-location-tracker-jade.vercel.app/",
+    image: LocationTrackerImg,
+  },
   {
     title: "TeamBaithak",
     category: "Real-Time Collaboration & AI Assistant",
